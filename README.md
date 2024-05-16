@@ -31,7 +31,7 @@ Python program to assemble pages from multiple PDFs into one pdf.
         - 'file' is the name of the pdf within the input directory to get the page(s) from, without the .pdf extension
         - 'pages' consists of a ','-separated list of statements of the form:
             - 'num', to represent page#num only (1-indexed).
-            - 'low,high' to represent pages low-high inclusive (1-indexed).
+            - 'low-high' to represent pages low-high inclusive (1-indexed).
           ('pages' may optionally be wrapped in [],{} and/or () brackets to make it look nice.)
     E.g.:
         alpha:12;beta:1-2,5; alpha:{7,18,12-15}
